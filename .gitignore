@@ -1,0 +1,4 @@
+backend/microservice-inventory/venv/
+backend/microservice-orders/node_modules/
+__pycache__/
+.env
