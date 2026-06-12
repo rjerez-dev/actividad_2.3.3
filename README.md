@@ -8,6 +8,7 @@ Este proyecto consiste en una arquitectura de comercio electronico basada en mic
 
 El repositorio esta organizado de forma limpia y modular, separando las responsabilidades de cada componente del backend:
 
+```text
 ecommerce-x/
 ├── backend/
 │   ├── microservice-inventory/   # Microservicio de Inventario (Python)
@@ -27,6 +28,7 @@ ecommerce-x/
 │
 ├── .gitignore                    # Exclusion de node_modules y archivos temporales
 └── README.md                     # Documentacion general del sistema
+```
 
 ## Componentes del Backend
 
