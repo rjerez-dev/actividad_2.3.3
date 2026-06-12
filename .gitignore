@@ -1,0 +1,62 @@
+# ==========================================
+# 1. DEPENDENCIAS Y MÓDULOS (Node.js & React)
+# ==========================================
+# Ignora las carpetas de dependencias de Node de las 3 ubicaciones
+node_modules/
+backend/microservice-orders/node_modules/
+frontend/node_modules/
+
+# Archivos de bitácora y logs de error de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================================
+# 2. ENTORNOS VIRTUALES Y CACHÉ (Python)
+# ==========================================
+# Archivos compilados de Python
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales de Python en el microservicio de inventario
+backend/microservice-inventory/venv/
+backend/microservice-inventory/.venv/
+venv/
+.venv/
+env/
+.env/
+
+# Archivos de configuración de editores/herramientas de Python
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# 3. COMPILACIÓN Y PRODUCCIÓN (Vite / Frontend)
+# ==========================================
+# Carpeta donde Vite genera el Frontend optimizado para producción
+frontend/dist/
+frontend/build/
+
+# Archivos locales de configuración o variables de entorno sensibles
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# 4. CONFIGURACIÓN DE EDITORES Y SISTEMA OPERATIVO
+# ==========================================
+# Carpetas de editores de código (VS Code, WebStorm, etc.)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Archivos temporales del sistema operativo
+DS_Store
+Thumbs.db
